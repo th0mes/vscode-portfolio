@@ -3,7 +3,7 @@ import Head from "next/head";
 
 import { Layout } from "@/components";
 
-const Home: NextPage = () => {
+const Test: NextPage = () => {
   return (
     <>
       <Head>
@@ -12,12 +12,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <h1 className="flex h-full w-full items-center justify-center">
-          Hello World!
-        </h1>
+        <h1 className="flex h-full w-full items-center justify-center">2</h1>
       </Layout>
     </>
   );
 };
 
-export default Home;
+export default Test;
